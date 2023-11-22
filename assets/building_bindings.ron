@@ -1,0 +1,27 @@
+[
+    BuildingInfo (
+        name: "Smelter",
+        world_sprite: "Smelter.png",
+        ui_sprite: "Smelter.png",
+        size: (2, 2)
+    ),
+    BuildingInfo (
+        name: "Crafter",
+        world_sprite: "Crafter.png",
+        ui_sprite: "Crafter.png",
+        size: (2, 2)
+    ),
+    BuildingInfo (
+        name: "Give Box",
+        world_sprite: "GiveBox.png",
+        ui_sprite: "GiveBox.png",
+        size: (1, 1)
+    ),
+    BuildingInfo (
+        name: "Take Box",
+        world_sprite: "TakeBox.png",
+        ui_sprite: "TakeBox.png",
+        size: (1, 1)
+    ),
+    
+]

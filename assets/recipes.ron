@@ -1,0 +1,33 @@
+(
+    recipes: [
+        CraftingRecipe (
+            needed: [
+                (
+                    Ore,
+                    2,
+                ),
+            ],
+            produces: (
+                Bar,
+                1
+            ),
+             building: Smelter,
+             craft_time: 1.0,
+        ),
+
+        CraftingRecipe (
+            needed: [
+                (
+                    Bar,
+                    1,
+                ),
+            ],
+            produces: (
+                Gear,
+                2
+            ),
+            building: Crafter,
+            craft_time: 2.0,
+        ),
+    ]
+)

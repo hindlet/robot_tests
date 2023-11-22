@@ -1,0 +1,18 @@
+buildings {
+    mine;
+    factory;
+}
+
+items {
+    raw;
+    processed;
+}
+
+run {
+    goto(mine); 
+    pickup(raw, 2);
+    goto(factory);
+    dropoff(raw, 2);
+    pickup(processed, 1);
+    speak();
+}
